@@ -7,20 +7,20 @@ A world-class luxury photographer portfolio website built with React 18, TypeScr
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.2-3178c6.svg)
 ![Vite](https://img.shields.io/badge/Vite-8.0.10-646cff.svg)
 
-## ✨ Features
+##  Features
 
-- 🎨 **Luxury Design** - Editorial-style asymmetric grid layouts
-- 🖱️ **Custom Cursor** - Spring-animated cursor with hover effects
-- 🖼️ **Resilient Images** - Multi-source strategy (Unsplash + Picsum fallback)
-- ⚡ **Smooth Animations** - 60fps Framer Motion animations
-- 📱 **Fully Responsive** - Mobile-first design with touch optimization
-- 🎭 **Page Transitions** - Seamless route transitions with AnimatePresence
-- 🔄 **Lazy Loading** - Code splitting and progressive image loading
-- 🎯 **Zero Broken Images** - Automatic fallback system
-- 🌊 **Smooth Scroll** - Buttery smooth scrolling with Lenis
-- ⚡ **Fast Performance** - 81KB gzipped bundle, optimized for speed
+-  **Luxury Design** - Editorial-style asymmetric grid layouts
+-  **Custom Cursor** - Spring-animated cursor with hover effects
+-  **Resilient Images** - Multi-source strategy (Unsplash + Picsum fallback)
+-  **Smooth Animations** - 60fps Framer Motion animations
+-  **Fully Responsive** - Mobile-first design with touch optimization
+-  **Page Transitions** - Seamless route transitions with AnimatePresence
+-  **Lazy Loading** - Code splitting and progressive image loading
+-  **Zero Broken Images** - Automatic fallback system
+-  **Smooth Scroll** - Buttery smooth scrolling with Lenis
+-  **Fast Performance** - 81KB gzipped bundle, optimized for speed
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Install dependencies
@@ -36,7 +36,7 @@ npm run build
 npm run preview
 ```
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 - **Color Palette**: Near-black (#0A0A0A), off-white (#F5F0EB), warm gold (#C8A96E)
 - **Typography**: Cormorant Garamond (display) + DM Sans (body)
@@ -44,20 +44,20 @@ npm run preview
 - **Whitespace**: Extreme use of whitespace to let images breathe
 - **Animations**: Smooth spring physics, no jarring transitions
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
-├── components/     # Reusable UI components
-├── pages/          # Route pages (Home, ProjectDetail, About)
-├── hooks/          # Custom React hooks
-├── data/           # Project data and image catalog
-├── utils/          # Utility functions (image handling)
-├── styles/         # Global styles and CSS
-└── variants.ts     # Framer Motion animation variants
+ components/     # Reusable UI components
+ pages/          # Route pages (Home, ProjectDetail, About)
+ hooks/          # Custom React hooks
+ data/           # Project data and image catalog
+ utils/          # Utility functions (image handling)
+ styles/         # Global styles and CSS
+ variants.ts     # Framer Motion animation variants
 ```
 
-## 🖼️ Resilient Image Strategy
+##  Resilient Image Strategy
 
 Every image uses a multi-source approach:
 
@@ -66,7 +66,7 @@ Every image uses a multi-source approach:
 3. **Blur-up**: Tiny placeholder that fades to full resolution
 4. **Zero Broken Images**: Automatic fallback prevents broken image icons
 
-## 🎭 Key Components
+##  Key Components
 
 - **Custom Cursor** - 12px circle that expands to 80px on hover
 - **Loading Screen** - Session-based, plays once per visit
@@ -75,7 +75,7 @@ Every image uses a multi-source approach:
 - **Parallax** - Hero images move at 0.3× scroll speed
 - **Marquee** - Infinite scrolling text
 
-## 🛠️ Technologies
+##  Technologies
 
 - **React 19.2.5** - UI library
 - **TypeScript 6.0.2** - Type safety
@@ -85,20 +85,20 @@ Every image uses a multi-source approach:
 - **React Router 7.15.0** - Client-side routing
 - **Lenis 1.0.42** - Smooth scroll
 
-## 📱 Responsive Design
+##  Responsive Design
 
 - **Mobile**: < 768px - Single column, hamburger menu
 - **Tablet**: 768px - 1024px - Adapted grid layouts
 - **Desktop**: > 1024px - Full asymmetric grid, custom cursor
 
-## ⚡ Performance
+##  Performance
 
 - **Bundle Size**: 81.28 KB (gzipped)
 - **Build Time**: ~3s
 - **Lighthouse Score**: 85+ (Performance)
 - **Animation FPS**: 60fps target
 
-## 🎨 Customization
+##  Customization
 
 ### Change Colors
 
@@ -135,7 +135,7 @@ Edit `src/data/projects.ts`:
 
 Use your own Unsplash photo IDs or any image URLs in `src/data/projects.ts` and `src/data/images.ts`.
 
-## � Deployment
+##  Deployment
 
 ### Vercel (Recommended)
 
@@ -161,20 +161,20 @@ npm install -D gh-pages
 npm run deploy
 ```
 
-## 📄 License
+##  License
 
 MIT License - feel free to use this template for your own projects!
 
-## 🙏 Credits
+##  Credits
 
 - Design inspiration: Awwwards, Behance
 - Images: Unsplash (primary), Picsum (fallback)
 - Fonts: Google Fonts (Cormorant Garamond, DM Sans)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 ---
 
-**Built with intention. Crafted for excellence.** ✨
+**Built with intention. Crafted for excellence.** 
